@@ -1,0 +1,365 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.head{
+    height: 80px;
+    border-bottom: 1px solid #d8d8d8;
+    position: fixed; 
+    left:0;
+    top: 0;
+    background: #ffffff;
+    width: 100%;
+    z-index: 10;
+}
+.head-one{
+    width: 1200px;
+    height: 80px;
+    margin: 0px auto;
+}
+.head-logo{
+    height: 40px;
+    width: 133px;
+    padding-top: 20px;
+    float: left;
+}
+.head-city{
+    float: left;
+    height: 80px;
+    width: 75px;
+    font-size: 18px;
+}
+.city-one{
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+.head-option{
+    height: 80px;
+    width: 530px;
+    float: left;
+    overflow: hidden;
+}
+.head-option a{
+    color: black;
+    line-height: 80px;
+    text-align: center;
+    width: 75px;
+    height: 80px;
+    text-decoration: none;
+    float: left;
+    font-size: 18px;
+}
+.head-option a:hover{
+    color: rgb(243, 17, 17);
+}
+.head-app{
+    float: left;
+    width: 100px;
+    height: 80px;
+    margin-right: 10px;
+}
+.app-icon{
+    float: left;
+    line-height: 90px;
+}
+.app-text{
+    margin-left:5px;
+    text-align: center;
+    line-height: 80px;
+}
+.head-search{
+    float: left;
+    width: 220px;
+    height: 40px;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.text{
+    padding: 0 40px 0 20px;
+    outline: none;
+    border:1px solid gray;
+    height: 38px;
+    width: 158px;
+    border-radius:50px;
+}
+.submit{
+    outline: none;
+    border:0 solid gray;
+    border-radius:50px;
+    position: absolute;
+    display:inline-block;
+    left: 180px;
+    top: 0;
+    height: 40px;
+    width: 40px;
+    background: #ef4238;
+    background-image: url(../images/index/搜索.png);
+}
+.head-sign{
+    float: right;
+    position: relative;
+    height: 80px;
+}
+.sign-one{
+    width: 56px;
+    height: 80px;
+    display: block;
+    margin-right: 55px;
+}
+.sign-one img{
+    margin-top: 20px;
+    width: 41px;
+    height: 41px; 
+}
+/* ------------------------------- */
+.two{
+    background-color: #47464a;
+    margin-top: 80px;
+}
+.two a{
+    text-decoration: none;
+}
+.two-1{
+    width: 1200px;
+    height: 60px; 
+    background-color: #47464a;
+    text-align: center;
+    line-height: 60px;
+    margin:0 auto;
+}
+.two-1 a{
+    font-size:16px;
+    color: #fff;
+    padding:0 40px;
+}
+/* ---------------------------------------- */
+.three{
+   overflow: hidden;
+}
+.three a{
+    text-decoration: none; 
+}
+.three-1{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top:40px;  
+}
+.three-2{
+    border:1px solid gray;
+    margin:0 auto;
+    width: 1118px;
+    height:225px;
+    padding:0 20px; 
+}
+/* ------------------------------------ */
+.three-3{
+    border-bottom:1px solid gray;
+    height: 54px;
+    width: 1118px; 
+    padding:10px 0;
+}
+.three-3 a:hover{
+    color: red;
+}
+.three-3-1 a:hover{
+    color: red;
+}
+.three-3 div:nth-of-type(1){
+    float: left;
+     color: gray;
+     width: 44px;
+     font-size:14px;
+     padding-top:3px;
+}
+.three-3 div:nth-of-type(2){
+    float: left;
+    width: 1074px;
+}
+.three-3 a{
+    font-size:14px;
+    color: black;
+    margin:0 10px;
+    line-height: 25px;
+}
+.three-3 li{
+    float: left;
+}
+
+.three-3-1{
+    height: 54px;
+    width: 1118px; 
+    padding:10px 0;
+}
+.three-3-1 div:nth-of-type(1){
+    float: left;
+     color: gray;
+     width: 44px;
+     font-size:14px;
+     padding-top:3px;
+}
+.three-3-1 div:nth-of-type(2){
+    float: left;
+    width: 1074px;
+}
+.three-3-1 a{
+    font-size:14px;
+    color: black;
+    margin:0 10px;
+    line-height: 25px;
+}
+.three-3-1 li{
+    float: left;
+}
+/* ------------------------------------- */
+.three-4{
+    padding-left: 20px;
+    margin-top: 42px;
+    margin-bottom:90px;
+}
+.three-4 li{
+    float: left;
+    margin-right: 30px;
+}
+/* --------------------------------------------------- */
+/* .three-5{
+    overflow: hidden;
+} */
+.three-5>div:nth-of-type(1){
+    width: 1200px;
+    margin:0 auto;
+}
+.three-6{
+    position: relative;
+    float: left;
+    width: 160px;
+    height: 270px;
+    margin:0 20px 20px 20px;
+}
+.three-6:hover{
+    transform: scale(1.2);
+}
+.three-6 span:nth-of-type(1){
+    position: absolute;
+    top: 200px;
+    left: 132px;
+    width: 24px;
+    height: 16px;
+    color: #fff;
+    background: #f34d41;
+    font-size: 12px;
+}
+.three-6 div:nth-of-type(1) i{
+    display: inline-block;
+    position: absolute;
+    top: 3px;
+    left: -3px;
+    background: url(../images/form/4.png);
+    width: 69px;
+    height: 25px;
+}
+.three-6 div:nth-of-type(1) p{
+    text-align: center;
+    color: black;
+}
+.three-6 div:nth-of-type(2){
+    text-align: center;
+    font-size: 16px;
+}
+.three-6 div:nth-of-type(2) i:nth-of-type(1){
+    color: #ffb400;
+    font-size: 18px;
+}
+.three-6 div:nth-of-type(2) i:nth-of-type(2){
+    color: #ffb400;
+    font-size: 16px;
+}
+.three-7{
+    margin:0 auto; 
+    margin-bottom: 82px; 
+}
+.three-7 a{
+    color: black; 
+}
+.three-7>div{
+    margin:0 auto;
+    width: 1160px;
+    text-align: center;
+}
+.three-7 li{
+    display:inline-block;
+    margin:0 5px;
+}
+.three-7 li:nth-of-type(1){
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid gray;
+    width: 28px;
+    height: 28px;
+    background: #ef4238;
+    color: #fff;
+}
+.three-7 li:nth-of-type(2){
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid gray;
+    width: 28px;
+    height: 28px;
+    color: black;
+}
+.three-7 li:nth-of-type(3){
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid gray;
+    width: 70px;
+    height: 28px;
+    color: black;
+}
+/* ----------------------------------------------- */
+.footer{
+    background: #262426;
+    height: 373px;
+    overflow: hidden;
+}
+.footer-one{
+    background: #262426;
+    height: 373px;
+    width: 1200px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.footer-one p{
+    text-align: center;
+    text-decoration: none;
+    color:#cccccc;
+}
+.footer-one span{
+    text-align: center;
+    text-decoration: none;
+    color:#cccccc;
+}
+.footer-one a{
+    text-align: center;
+    text-decoration: none;
+    color:#cccccc;
+}
+.footer-one-pone{
+    margin-top: 61px;
+}
+.footer-one-pone a{
+    color: red;
+}
+.footer-one-pone span{
+    margin-left: 11px;
+    margin-right: 11px;
+}
+.footer-one li{
+    margin-top: 26px;
+    text-align: center;
+}
+.footer-one li img{
+    margin-left: 16px;
+}

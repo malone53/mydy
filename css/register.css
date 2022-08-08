@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.one{
+    height: auto;
+}
+.one-one{
+    height: 101px;
+    width:980px;
+    margin: 0px auto;
+}
+.one-one a{
+    margin-top: 40px;
+    display: inline-block;
+    height: 45px;
+    width: 230px;
+    background: url(../images/register/下载.png)no-repeat -716px -677px;
+}
+.two{
+    height: 500px;
+    width: 900px;
+    background: #fff;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.two-one{
+    height: 370px;
+    width: 480px;
+    background: #fff;
+    float: left;
+}
+.two-two{
+    margin-top: 80px;
+    height: 500px;
+    width: 347px;
+    background: #fff;
+    float: right;
+    overflow: hidden;
+}
+.two-two p{
+    position: relative;
+}
+.span-one{
+    position:absolute ;
+    right:38px;
+    top: 10px;
+    font-size: 15px; 
+    color: #cccccc;
+}
+.two-two-text{
+    outline: none;
+    border:none;
+    line-height: 46px;
+    width: 350px;
+    height: 46px;
+    border-bottom:1px solid #e5e5e5;
+    font-size: 15px; 
+    color: #000000;
+}
+.two-two-text::input-placeholder{
+	color:rgb(228, 16, 16);
+}
+.two-two-number{
+    outline: none;
+    border:none;
+    line-height: 46px;
+    width: 350px;
+    height: 46px;
+    border-bottom:1px solid #e5e5e5;
+    font-size: 15px; 
+    color: #000000;
+}
+.two-two-number::input-placeholder{
+	color:rgb(228, 16, 16);
+}
+button{
+    outline: none;
+    border:none;
+    height: 46px;
+    width: 347px;
+    color: #999999;
+    background: #e5e5e5;
+    border-radius:50px ;
+    margin-top: 16px;
+    margin-bottom: 36px;
+}
+.span-two{
+   color: #7f7f7f;
+   margin-bottom: 20px;
+   font-size: 12px;  
+}
+.span-two a{
+    text-decoration: none;
+    color: #df2d2d; 
+    font-size: 12px;
+ }
+.span-three{
+    color: #7f7f7f;
+    margin-bottom: 22px; 
+    font-size: 12px; 
+ }
+ .span-three a{
+    text-decoration: none;
+    color: #df2d2d;  
+    font-size: 12px;
+ }
+.span-four{
+    color: #bbbbbb;
+    font-size: 12px;
+}
+input[type='checkbox']::after {
+    border-radius: 50%;
+}
